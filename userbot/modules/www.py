@@ -46,15 +46,15 @@ async def pingme(pong):
     """ For .ping command, ping the userbot from any chat.  """
     await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    await pong.edit("**★ KONTOL ★**")
-    await pong.edit("**★✫ KONTOL ★✫**")
-    await pong.edit("**★✫★ KONTOL ★✫★**")
-    await pong.edit("**★✫★✫ KONTOL ★✫★✫**")
+    await pong.edit("**֎ KONTOL ֎**")
+    await pong.edit("**֎✺ KONTOL ✺֎**")
+    await pong.edit("**֎✺֎ KONTOL ֎✺֎**")
+    await pong.edit("**֎✺֎✺ KONTOL ✺֎✺֎**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**𖣘 MEMEK** "
+    await pong.edit(f"**༄ MEMEK** "
                     f"\n  ➥ `%sms` \n"
-                    f"**𖣘 SIANJING** "
+                    f"**༄ SIANJING** "
                     f"\n  ➥ `{ALIVE_NAME}` \n" % (duration))
 
 
@@ -99,10 +99,10 @@ async def pingme(pong):
     await pong.edit("**✦҈͜͡➳ KONTOL!**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**♛ SEPONG XIXI ♛**\n"
-                    f"❃ **Pain:** "
+    await pong.edit(f"**༄ SEPONG XIXI ༄**\n"
+                    f"➷ **Pain:** "
                     f"`%sms` \n"
-                    f"❃ **Hub:** "
+                    f"➷ **Hub:** "
                     f"`{uptime}` \n"
                     f"**✦҈͜͡➳ SI KONTOL:** `{ALIVE_NAME}`" % (duration))
 
