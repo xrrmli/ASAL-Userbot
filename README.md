@@ -52,7 +52,7 @@ Atau Bisa Gabung Ke Grup Lord Userbot -> [TEKAN DISINI](https://t.me/LordUserbot
 ## Credit
 TERIMAKASIH UNTUK
 
-*   [RaphielGang](https://github.com/RaphielGang) - Telegram-Paperplane
+*   [ramli](https://github.com/xrrmli) - Telegram-Paperplane
 *   [AvinashReddy3108](https://github.com/AvinashReddy3108) - PaperplaneExtended
 *   [Mkaraniya](https://github.com/mkaraniya) & [Dev73](https://github.com/Devp73) - OpenUserBot
 *   [Mr.Miss](https://github.com/keselekpermen69) - UserButt
