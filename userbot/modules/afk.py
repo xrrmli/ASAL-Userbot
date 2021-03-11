@@ -62,10 +62,10 @@ async def set_afk(afk_e):
     afk_start = start_1.replace(microsecond=0)
     if string:
         AFKREASON = string
-        await afk_e.edit(f"**♕ OFF!**\n**𝖎𝖑𝖒𝖗 Off heula**\
+        await afk_e.edit(f"**♕ OFF!**\n**𝖎𝖑𝖒𝖗 Off Dulu**\
         \n☛ **Alasan:** `{string}`")
     else:
-        await afk_e.edit("**✘ Bahagia!**\n**ramle lagi bahagia**")
+        await afk_e.edit("**♕ OFF!**\n**𝖎𝖑𝖒𝖗 Off Dulu**")
     if user.last_name:
         await afk_e.client(UpdateProfileRequest(first_name=user.first_name, last_name=user.last_name + "【AFK】"))
     else:
