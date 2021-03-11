@@ -62,7 +62,7 @@ async def set_afk(afk_e):
     afk_start = start_1.replace(microsecond=0)
     if string:
         AFKREASON = string
-        await afk_e.edit(f"**✘ Bahagia!**\n**ramle lagi bahagia**\
+        await afk_e.edit(f"**♕ OFF!**\n**𝖎𝖑𝖒𝖗 Off heula**\
         \n☛ **Alasan:** `{string}`")
     else:
         await afk_e.edit("**✘ Bahagia!**\n**ramle lagi bahagia**")
