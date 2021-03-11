@@ -7,34 +7,34 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 # ============================================
 
 
-@register(outgoing=True, pattern='^.M(?: |$)(.*)')
+@register(outgoing=True, pattern='^.goblok(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit(" ANAK GOBLOK!! ")
 
 
-@register(outgoing=True, pattern='^.m(?: |$)(.*)')
+@register(outgoing=True, pattern='^.Nah(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("NAH GITU GOBLOK")
 
 
-@register(outgoing=True, pattern='^.K(?: |$)(.*)')
+@register(outgoing=True, pattern='^.ga(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("ENGGA DULU BANG XIXIXI")
 
 
-@register(outgoing=True, pattern='^.k(?: |$)(.*)')
+@register(outgoing=True, pattern='^.sokab(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("SOKAB CUIH NGENTOT")
 
 
 CMD_HELP.update({
-    "salam":
-    "`.P`\
-\nUsage: Untuk Memberi salam.\
-\n\n`.L`\
-\nUsage: Untuk Menjawab Salam."
+    "bacotan":
+    "`.goblok`\
+\nUsage: buat goblokin.\
+\n\n`.ga`\
+\nUsage: buat nolak."
 })
