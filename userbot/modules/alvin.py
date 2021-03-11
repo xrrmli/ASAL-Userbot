@@ -385,22 +385,22 @@ async def _(event):
 
     input_str = event.pattern_match.group(1)
 
-    if input_str == "cinta":
+    if input_str == "sagne":
 
         await event.edit(input_str)
 
         animation_chars = [
-            "`Connecting Ke Server Cinta`",
-            "`Mencari Target Cinta`",
-            "`Mengirim Cintaku.. 0%\n▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
-            "`Mengirim Cintaku.. 4%\n█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
-            "`Mengirim Cintaku.. 8%\n██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
-            "`Mengirim Cintaku.. 20%\n█████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
-            "`Mengirim Cintaku.. 36%\n█████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
-            "`Mengirim Cintaku.. 52%\n█████████████▒▒▒▒▒▒▒▒▒▒▒▒ `",
-            "`Mengirim Cintaku.. 84%\n█████████████████████▒▒▒▒ `",
-            "`Mengirim Cintaku.. 100%\n█████████CINTAKU███████████ `",
-            f"`Cintaku Sekarang Sepenuhnya Terkirim Padamu, Dan Sekarang Aku Sangat Mencintai Mu, I Love You 💞`"]
+            "`Connecting Ke Server Sange`",
+            "`Mencari Target Sange`",
+            "`Mengirim Kesangeanku.. 0%\n▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
+            "`Mengirim Kesangeanku.. 4%\n█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
+            "`Mengirim Kesangeanku.. 8%\n██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
+            "`Mengirim Kesangeanku.. 20%\n█████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
+            "`Mengirim Kesangeanku.. 36%\n█████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
+            "`Mengirim Kesangeanku.. 52%\n█████████████▒▒▒▒▒▒▒▒▒▒▒▒ `",
+            "`Mengirim Kesangeanku.. 84%\n█████████████████████▒▒▒▒ `",
+            "`Mengirim Kesangeanku.. 100%\n█████████SANGEKU███████████ `",
+            f"`Kesangeanku Sekarang Sepenuhnya Terkirim Padamu, Dan Sekarang Aku Sagapung, Ahh Crot🥵💦`"]
 
         for i in animation_ttl:
 
