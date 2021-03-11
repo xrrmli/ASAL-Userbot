@@ -36,9 +36,5 @@ CMD_HELP.update({
     "`.goblok`\
 \nUsage: buat goblokin.\
 \n\n`.ga`\
-\nUsage: buat nolak.
-`.sokab`\
-\nUsage: liat ae.\
-\n\n`.Nah`\
-\nUsage: liat ajaa."
+\nUsage: buat nolak."
 })
