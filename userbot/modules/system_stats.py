@@ -159,7 +159,7 @@ async def bot_ver(event):
         revout = str(stdout.decode().strip()) + str(stderr.decode().strip())
 
         await event.edit(
-            "**☛**Lord-Userbot Versi:** \n "
+            "**☛**Crash-Userbot Versi:** \n "
             f"{verout}"
             "\n**☛**Revisi:**\n "
             f"{revout}"
@@ -223,13 +223,13 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f" **†𝙓𝙍𝙍𝙈𝙇𝙄†** \n"
+        f" **-𝗖𝗿𝗮𝘀𝗵-𝘂𝘀𝗲𝗿𝗯𝗼𝘁-** \n"
         f"\n__**{LORD_TEKS_KUSTOM}**__\n"
         f"**━━━━━━━━━━━━━━━━━━━━**\n"
-        f"**༄ 𝐁𝐎𝐒𝐒** \n"
-        f" ➢ `{DEFAULTUSER}` \n"
-        f"**༄ 𝐔𝐒𝐄𝐑𝐍𝐀𝐌𝐄** \n"
-        f" ➢ `@{user.username}` \n"
+        f"**Owner** \n"
+        f" ✞ `{DEFAULTUSER}` \n"
+        f"**Username** \n"
+        f" ✞ `@{user.username}` \n"
         f"┏━━━━━━━━━━━━━━━━━━━\n"
         f"┣[• `Telethon :`Ver {version.__version__} \n"
         f"┣[• `Python   :`Ver {python_version()} \n"
@@ -262,14 +262,14 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     output = (
         f"**▬▬▬▬▬▬❙۩♛۩❙▬▬▬▬▬▬**\n"
-        f"     **♕ XRRMLI ♕** \n\n"
-        f"❃ **Lord**     \n   ➥ `{DEFAULTUSER}` \n"
-        f"❃ **Username** \n   ➥ `@{user.username}` \n"
-        f"❃ **Telethon** \n   ➥ `Versi {version.__version__}` \n"
-        f"❃ **Python**   \n   ➥ `Versi {python_version()}` \n"
-        f"❃ **Versi Bot**\n   ➥ `{BOT_VER}` \n"
-        f"❃ **Modul**    \n   ➥ `{len(modules)}` \n\n"
-        f"❃ **Repo Userbot:** [Lord-Userbot](https://github.com/Zora24/Lord-Userbot)\n❃ **Grup Userbot: **[Tekan](t.me/LordUserbot_Group)\n❃ **Pemilik:** [Alvin](t.me/liualvinas)\n"
+        f"     **-𝗖𝗿𝗮𝘀𝗵-𝘂𝘀𝗲𝗿𝗯𝗼𝘁-** \n\n"
+        f"✞ **Owner**     \n   ➢ `{DEFAULTUSER}` \n"
+        f"✞ **Username** \n   ➢ `@{user.username}` \n"
+        f"✞ **Telethon** \n   ➢ `Versi {version.__version__}` \n"
+        f"✞ **Python**   \n   ➢ `Versi {python_version()}` \n"
+        f"✞ **Versi Bot**\n   ➢ `{BOT_VER}` \n"
+        f"✞ **Modul**    \n   ➢ `{len(modules)}` \n\n"
+        f"✞ **Repo Userbot:** [Crash-Userbot](https://github.com/xrrmli/Crash-Userbot)\n❃ **Grup Userbot: **[Tekan](t.me/LordUserbot_Group)\n❃ **Pemilik:** [Ramli](t.me/mentalbrikden)\n"
         f"**▬▬▬▬▬▬❙۩★۩❙▬▬▬▬▬▬**")
     if ALIVE_LOGO:
         try:
@@ -296,17 +296,17 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"**♕ RAMLI KONTOL** \n"
+        f"**-𝗖𝗿𝗮𝘀𝗵-𝘂𝘀𝗲𝗿𝗯𝗼𝘁-** \n"
         f"┏━━━━━━━━━━━━━━━━━━━ \n"
-        f"┣|• `Lord     :`{DEFAULTUSER} \n"
-        f"┣|• `Username :`@{user.username} \n"
+        f"┣|• `Owner     :`{DEFAULTUSER} \n"
+        f"┣|•`Username :`@{user.username} \n"
         f"┣|• `Telethon :`Ver {version.__version__} \n"
         f"┣|• `Python   :`Ver {python_version()} \n"
         f"┣|• `Branch   :`{UPSTREAM_REPO_BRANCH} \n"
         f"┣|• `Bot Ver  :`{BOT_VER} \n"
         f"┣|• `Modules  :`{len(modules)} Modules \n"
         f"┗━━━━━━━━━━━━━━━━━━━ \n\n"
-        f"[Repo](https://github.com/Zora24/Lord-Userbot) | [Grup Support](t.me/LordUserbot_Group) | [Owner](t.me/liualvinas)")
+        f"[Repo](https://github.com/xrrmli/Crash-Userbot) | [Grup Support](t.me/LordUserbot_Group) | [Owner](t.me/mentalbrikden)")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
