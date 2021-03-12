@@ -18,7 +18,7 @@
 <p align="center">&nbsp;</p>
 
 ### Repo Crash Userbot
-Repo Dibuat [Alvin](https://t.me/liualvinas) Dan Di Fork Oleh [Ramli](https://t.me/mentalbrikden) 
+Repo Dibuat Oleh [Ramli](https://t.me/mentalbrikden) 
 
 
 ### CARA MENDAPATKAN STRING SESSON
