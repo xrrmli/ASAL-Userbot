@@ -3,16 +3,16 @@ from userbot import CMD_HELP
 from userbot.events import register
 
 
-@register(outgoing=True, pattern='^.sadboy(?: |$)(.*)')
+@register(outgoing=True, pattern='^.k1ck(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(2)
-    await typew.edit("`Pertama-tama kamu cantik`")
+    await typew.edit("`Gua Kick Yaaa`")
     sleep(2)
-    await typew.edit("`Kedua kamu manis`")
+    await typew.edit("`.k1ck`")
     sleep(1)
-    await typew.edit("`Dan yang terakhir adalah kamu bukan jodohku`")
-# Create by myself @localheart
+    await typew.edit("`Tapi Boong Hayuuuu Papale Papale Pap NGENTOT`")
+# Create by myself @mentalbrikden
 
 
 @register(outgoing=True, pattern='^.punten(?: |$)(.*)')
@@ -25,7 +25,7 @@ async def typewriter(typew):
                      "`\n┻┳|￣  )`"
                      "`\n┳ﾐ(￣ ／`"
                      "`\n┻┳T￣|`"
-                     "\n**Punten**")
+                     "\n**Da Pa Nich**")
 
 
 @register(outgoing=True, pattern='^.pantau(?: |$)(.*)')
@@ -37,8 +37,8 @@ async def typewriter(typew):
                      "`\n┳┻|▼) _ノ`"
                      "`\n┻┳|￣  )`"
                      "`\n┳ﾐ(￣ ／`"
-                     "`\n┻┳T￣|`"
-                     "\n**Masih Ku Pantau**")
+                     "`\n┻┳T￣|`"q
+                     "\n**Masi Gua Pantau, Blom Gua Tusbol**")
 
 
 # Create by myself @localheart
@@ -47,8 +47,8 @@ CMD_HELP.update({
     "lord":
     "`.lord`\
     \nUsage: alive bot.\
-    \n\n`.sadboy`\
-    \nUsage: hiks\
+    \n\n`.k1ck`\
+    \nUsage: kick boongan\
     \n\n`.punten` ; `.pantau`\
     \nUsage: coba aja.\
     \n\n`kosong`\
