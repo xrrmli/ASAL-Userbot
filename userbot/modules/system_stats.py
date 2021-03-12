@@ -298,15 +298,15 @@ async def amireallyalive(alive):
     output = (
         f"**- 𝗖𝗥𝗔𝗦𝗛 𝗨𝗦𝗘𝗥𝗕𝗢𝗧 | 𝗥𝗔𝗠𝗟𝗜 -** \n"
         f"━━━━━━━━━━━━━━━━━━━━ \n"
-        f"✠ Owner        : {DEFAULTUSER} \n"
-        f"✠ Username :@{user.username} \n"
-        f"✠ Telethon    : Ver {version.__version__} \n"
-        f"✠ Python       : Ver {python_version()} \n"
-        f"✠ Branch       : {UPSTREAM_REPO_BRANCH} \n"
-        f"✠ Bot Ver      : {BOT_VER} \n"
-        f"✠ Modules    : {len(modules)} Modules \n"
+        f" ✣ 𝗢𝘄𝗻𝗲𝗿        : {DEFAULTUSER} \n"
+        f" ✣ 𝗨𝘀𝗲𝗿𝗻𝗮𝗺𝗲 :@{user.username} \n"
+        f" ✣ 𝗧𝗲𝗹𝗲𝘁𝗵𝗼𝗻    : Ver {version.__version__} \n"
+        f" ✣ 𝗣𝘆𝘁𝗵𝗼𝗻       : Ver {python_version()} \n"
+        f" ✣ 𝗕𝗿𝗮𝗻𝗰𝗵       : {UPSTREAM_REPO_BRANCH} \n"
+        f" ✣ 𝗕𝗼𝘁 𝗩𝗲𝗿      : {BOT_VER} \n"
+        f" ✣ 𝗠𝗼𝗱𝘂𝗹𝗲𝘀    : {len(modules)} Modules \n"
         f"━━━━━━━━━━━━━━━━━━━━\n\n"
-        f"[Repo](https://github.com/xrrmli/Crash-Userbot) | [Grup Support](t.me/LordUserbot_Group) | [Owner](t.me/mentalbrikden)")
+        f"[Crash](https://github.com/xrrmli/Crash-Userbot) | [Grup Support](t.me/LordUserbot_Group) | [Owner](t.me/mentalbrikden)")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
