@@ -296,16 +296,16 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"**-𝗖𝗿𝗮𝘀𝗵-𝘂𝘀𝗲𝗿𝗯𝗼𝘁-** \n"
-        f"┏━━━━━━━━━━━━━━━━━━━ \n"
-        f"┣|• `Owner     :`{DEFAULTUSER} \n"
-        f"┣|•`Username :`@{user.username} \n"
-        f"┣|• `Telethon :`Ver {version.__version__} \n"
-        f"┣|• `Python   :`Ver {python_version()} \n"
-        f"┣|• `Branch   :`{UPSTREAM_REPO_BRANCH} \n"
-        f"┣|• `Bot Ver  :`{BOT_VER} \n"
-        f"┣|• `Modules  :`{len(modules)} Modules \n"
-        f"┗━━━━━━━━━━━━━━━━━━━ \n\n"
+        f"**- 𝗖𝗥𝗔𝗦𝗛 𝗨𝗦𝗘𝗥𝗕𝗢𝗧 | 𝗥𝗔𝗠𝗟𝗜 -** \n"
+        f"━━━━━━━━━━━━━━━━━━━━ \n"
+        f"✠ Owner     :`{DEFAULTUSER} \n"
+        f"✠ Username :`@{user.username} \n"
+        f"✠ Telethon :`Ver {version.__version__} \n"
+        f"✠ Python   :`Ver {python_version()} \n"
+        f"✠ Branch   :`{UPSTREAM_REPO_BRANCH} \n"
+        f"✠ Bot Ver  :`{BOT_VER} \n"
+        f"✠ Modules  :`{len(modules)} Modules \n"
+        f"  \n\n"
         f"[Repo](https://github.com/xrrmli/Crash-Userbot) | [Grup Support](t.me/LordUserbot_Group) | [Owner](t.me/mentalbrikden)")
     if ALIVE_LOGO:
         try:
