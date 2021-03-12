@@ -101,7 +101,7 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/xrrmli/ASAL-Userbot.git")
+    "https://github.com/xrrmli/Crash-Userbot.git")
 UPSTREAM_REPO_BRANCH = os.environ.get(
     "UPSTREAM_REPO_BRANCH", "Lord-Userbot")
 
@@ -319,7 +319,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "```『Lord-Userbot Telah Aktif』```")
+    await bot.send_message(BOTLOG_CHATID, "```『🤯Crash-Userbot Telah Aktif』```")
     return
 
 with bot:
@@ -404,7 +404,7 @@ with bot:
                 result = builder.article(
                     "Harap Gunakan .help Untuk Perintah",
                     text="{}\n\n**❃ Jumlah Modul Yang Tersedia:** `{}`\n               \n**❃ Daftar Modul Lord Userbot:** \n".format(
-                        "**♛ Lord-Userbot**",
+                        "**♛ Crash-Userbot**",
                         len(dugmeler),
                     ),
                     buttons=buttons,
@@ -412,22 +412,22 @@ with bot:
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan Lord✗Userbot ",
+                    "Bantuan Crash✗Userbot ",
                     text="Daftar Modul",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
-                    "**Lord✗Userbot**",
+                    "**Crash✗Userbot**",
                     text="""**Anda Bisa Membuat Lord Userbot Anda Sendiri Dengan Cara:** [Tekan Disini](t.me/Lorduserbot_Group)""",
                     buttons=[
                         [
                             custom.Button.url(
                                 "Repo Lord-Userbot",
-                                "https://github.com/Zora24/Lord-Userbot"),
+                                "https://github.com/xrrmli/Crash-Userbot"),
                             custom.Button.url(
                                 "Pemilik Repo",
-                                "t.me/liualvinas")],
+                                "t.me/mentalbrikden")],
                     ],
                     link_preview=False,
                 )
