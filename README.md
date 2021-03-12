@@ -6,19 +6,19 @@
     <img src="https://img.shields.io/github/forks/Zora24/Lord-Userbot?label=Fork&style=social">
     
   </a>
-  <a href="https://github.com/Zora24/Lord-Userbot">
+  <a href="https://github.com/xrrmli/Crash-Userbot">
     <img src="https://img.shields.io/github/stars/Zora24/Lord-Userbot?style=social">
   </a>
 </p>  
 
 # Lord Userbot
-![Lord Userbot Logo](https://telegra.ph/file/62dc59b2013a48f9cc8f3.jpg)
+![Lord Userbot Logo](https://telegra.ph/file/c62c239b6b7a3dcbe4d72.jpg)
 
 <h3 align="center">Userbot Yang Digunakan Untuk Bersenang-Senang Di Telegram</h3>
 <p align="center">&nbsp;</p>
 
 ### Repo Lord Userbot
-Repo Yang Dibuat [Alvin](https://t.me/liualvinas) Dari Berbagai Repo Userbot Github 
+Repo Dibuat [Alvin](https://t.me/liualvinas) Dan Di Fork Oleh [Ramli](https://t.me/mentalbrikden) 
 
 
 ### CARA MENDAPATKAN STRING SESSON
