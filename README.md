@@ -1,4 +1,4 @@
-<a href="https://cooltext.com"><img src="https://images.cooltext.com/5501763.gif" width="473" height="82" alt="LORD USERBOT" /></a>
+<a href="https://cooltext.com"><img src="https://telegra.ph/file/b55b315cff21b86960209.gif" width="473" height="82" alt="LORD USERBOT" /></a>
 
 
 <p align="center">
