@@ -62,16 +62,16 @@ async def set_afk(afk_e):
     afk_start = start_1.replace(microsecond=0)
     if string:
         AFKREASON = string
-        await afk_e.edit(f"**♕ OFF!**\n**𝖎𝖑𝖒𝖗 Off Dulu**\
-        \n☛ **Alasan:** `{string}`")
+        await afk_e.edit(f"**𖣘 𝗢𝗙𝗙!**\n**𝗢𝗙𝗙 𝗗𝗨𝗟𝗨 𝗖𝗔𝗣𝗘**\
+        \n➢ **Alasan:** `{string}`")
     else:
-        await afk_e.edit("**♕ OFF!**\n**𝖎𝖑𝖒𝖗 Off Dulu**")
+        await afk_e.edit("**𖣘 𝗢𝗙𝗙!**\n**𝗢𝗙𝗙 𝗗𝗨𝗟𝗨 𝗖𝗔𝗣𝗘**")
     if user.last_name:
-        await afk_e.client(UpdateProfileRequest(first_name=user.first_name, last_name=user.last_name + "【AFK】"))
+        await afk_e.client(UpdateProfileRequest(first_name=user.first_name, last_name=user.last_name + "【𝗖𝗔𝗣𝗘】"))
     else:
-        await afk_e.client(UpdateProfileRequest(first_name=user.first_name, last_name="【AFK】"))
+        await afk_e.client(UpdateProfileRequest(first_name=user.first_name, last_name="【𝗖𝗔𝗣𝗘】"))
     if BOTLOG:
-        await afk_e.client.send_message(BOTLOG_CHATID, "#AFK\n**Lord Telah AFK!**")
+        await afk_e.client.send_message(BOTLOG_CHATID, "#AFK\n**Master Telah AFK!**")
     ISAFK = True
     afk_time = datetime.now()  # pylint:disable=E0602
     raise StopPropagation
@@ -90,7 +90,7 @@ async def type_afk_is_not_true(notafk):
     global afk_end
     user = await bot.get_me()  # pylint:disable=E0602
     last = user.last_name
-    if last and last.endswith("【AFK】"):
+    if last and last.endswith("【𝗖𝗔𝗣𝗘】"):
         last1 = last[:-12]
     else:
         last1 = ""
