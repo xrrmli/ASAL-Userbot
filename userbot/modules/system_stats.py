@@ -307,7 +307,7 @@ async def amireallyalive(alive):
         f" ✣ 𝗠𝗼𝗱𝘂𝗹𝗲𝘀    : {len(modules)} Modules \n"
         f"━━━━━━━━━━━━━━━━━━━━\n"
         f"𝗖𝗿𝗮𝘀𝗵-𝘂𝘀𝗲𝗿𝗯𝗼𝘁 𝗱𝗶𝗯𝘂𝗮𝘁 𝗼𝗹𝗲𝗵 𝗿𝗮𝗺𝗹𝗶 𝗸𝗮𝗿𝗲𝗻𝗮 𝗱𝗶𝗮 𝘀𝗲𝗿𝗶𝗻𝗴 𝗰𝗿𝗮𝘀𝗵 𝘀𝗮𝗮𝘁 𝗺𝗲𝗹𝗮𝗸𝘂𝗸𝗮𝗻 𝗳𝗼𝗿𝗸\n\n"
-        f"[Crash](https://github.com/xrrmli/Crash-Userbot) | [Grup Support](t.me/LordUserbot_Group) | [Owner](t.me/mentalbrikden)")
+        f"[Crash](https://github.com/xrrmli/Crash-Userbot) | [Instagram](Instagram.com/xrrmli) | [Owner](t.me/mentalbrikden)")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
