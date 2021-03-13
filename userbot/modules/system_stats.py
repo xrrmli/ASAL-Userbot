@@ -223,19 +223,19 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f" **-𝗖𝗿𝗮𝘀𝗵-𝘂𝘀𝗲𝗿𝗯𝗼𝘁-** \n"
+        f" **𝗥𝗘𝗣𝗢 | 𝗖𝗥𝗔𝗦𝗛 𝗨𝗦𝗘𝗥𝗕𝗢𝗧** \n"
         f"\n__**{LORD_TEKS_KUSTOM}**__\n"
         f"**━━━━━━━━━━━━━━━━━━━━**\n"
-        f"**Owner** \n"
-        f" ✞ `{DEFAULTUSER}` \n"
-        f"**Username** \n"
-        f" ✞ `@{user.username}` \n"
+        f"**𝕺𝖜𝖓𝖊𝖗** \n"
+        f" ✣  {DEFAULTUSER}` \n"
+        f"**𝖀𝖘𝖊𝖗𝖓𝖆𝖒𝖊** \n"
+        f" ✣  @{user.username}` \n"
         f"┏━━━━━━━━━━━━━━━━━━━\n"
-        f"┣[• `Telethon :`Ver {version.__version__} \n"
-        f"┣[• `Python   :`Ver {python_version()} \n"
-        f"┣[• `Bot Ver  :`{BOT_VER} \n"
-        f"┣[• `Modules  :`{len(modules)} \n"
-        f"┗━━━━━━━━━━━━━━━━━━━")
+        f" ✣  ᴛᴇʟᴇᴛʜᴏɴ :`Ver {version.__version__} \n"
+        f" ✣  ᴘʏᴛʜᴏɴ   :`Ver {python_version()} \n"
+        f" ✣  ʙᴏᴛ ᴠᴇʀ  :`{BOT_VER} \n"
+        f" ✣  ᴍᴏᴅᴜʟᴇs  :`{len(modules)} \n"
+        f"━━━━━━━━━━━━━━━━━━━━ ")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
@@ -262,14 +262,14 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     output = (
         f"**▬▬▬▬▬▬❙۩♛۩❙▬▬▬▬▬▬**\n"
-        f"     **-𝗖𝗿𝗮𝘀𝗵-𝘂𝘀𝗲𝗿𝗯𝗼𝘁-** \n\n"
-        f"✞ **Owner**     \n   ➢ `{DEFAULTUSER}` \n"
-        f"✞ **Username** \n   ➢ `@{user.username}` \n"
-        f"✞ **Telethon** \n   ➢ `Versi {version.__version__}` \n"
-        f"✞ **Python**   \n   ➢ `Versi {python_version()}` \n"
-        f"✞ **Versi Bot**\n   ➢ `{BOT_VER}` \n"
-        f"✞ **Modul**    \n   ➢ `{len(modules)}` \n\n"
-        f"✞ **Repo Userbot:** [Crash-Userbot](https://github.com/xrrmli/Crash-Userbot)\n❃ **Grup Userbot: **[Tekan](t.me/LordUserbot_Group)\n❃ **Pemilik:** [Ramli](t.me/mentalbrikden)\n"
+        f"𝗥𝗘𝗣𝗢 | 𝗖𝗥𝗔𝗦𝗛 𝗨𝗦𝗘𝗥𝗕𝗢𝗧** \n\n"
+        f"༄ **Owner**     \n   ➪ `{DEFAULTUSER}` \n"
+        f"༄ **Username** \n   ➪ `@{user.username}` \n"
+        f"༄ **Telethon** \n   ➪ `Versi {version.__version__}` \n"
+        f"༄ **Python**   \n   ➪ `Versi {python_version()}` \n"
+        f"༄ **Versi Bot**\n   ➪ `{BOT_VER}` \n"
+        f"༄ **Modul**    \n   ➪ `{len(modules)}` \n\n"
+        f"༄ **Repo Userbot:** [Crash-Userbot](https://github.com/xrrmli/Crash-Userbot)\n❃ **instagram: **[Tekan](instagram.com/xrrmli)\n❃ **Pemilik:** [Ramli](t.me/mentalbrikden)\n"
         f"**▬▬▬▬▬▬❙۩★۩❙▬▬▬▬▬▬**")
     if ALIVE_LOGO:
         try:
