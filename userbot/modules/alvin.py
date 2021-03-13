@@ -409,41 +409,41 @@ async def _(event):
             await event.edit(animation_chars[i % 11])
 
 
-@register(outgoing=True, pattern='^.xrrmli(?: |$)(.*)')
+@register(outgoing=True, pattern='^.fkick(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
-    await typew.edit("`Hai, kontol`")
+    await typew.edit("`anak anjing ngapain ada disini`")
     sleep(1)
-    await typew.edit("`muka lu kek kontol asli`")
+    await typew.edit("`mau dikick ga`")
     sleep(1)
-    await typew.edit("`perkontolan anjing`")
+    await typew.edit("`mau ga kontol`")
     sleep(1)
-    await typew.edit("`kontol bapak kau`")
+    await typew.edit("`gua kick ya`")
     sleep(1)
-    await typew.edit("`kontol kau pecah`")
+    await typew.edit("`.kcik`")
     sleep(1)
-    await typew.edit("`hencer berem`")
+    await typew.edit("`tapi boong`")
     sleep(1)
-    await typew.edit("`kanyut maneh hideng`")
+    await typew.edit("`hayuuu papalee papale pap`")
     sleep(1)
-    await typew.edit("`anak ngentot emang`")
+    await typew.edit("`tot ngentot ngentot`")
     sleep(1)
-    await typew.edit("`cuih ngentot`")
+    await typew.edit("`tot tot tot`")
     sleep(1)
-    await typew.edit("`perkentotan`")
+    await typew.edit("`xixixi goblok`")
 # Create by myself @localheart
 
 CMD_HELP.update({
     "gabut":
-    "`.gabut` ; `.dino`\
-    \nUsage: ntahlah gabut doang.\
+    "`.gabut` ; `.tytyd`\
+    \nUsage: dikejar titit.\
     \n\n`.gombal`\
     \nUsage: buat bercanda\
-    \n\n`.cinta`\
-    \nUsage: mengirim cintamu ke seseorang.\
+    \n\n`.sagne`\
+    \nUsage: mengirim sangemu ke seseorang.\
     \n\n`.sayang`\
     \nUsage: untuk jadi buaya.\
-    \n\n`.terkadang`\
-    \nUsage: Auk dah iseng doang."
+    \n\n`.fkick`\
+    \nUsage: kick boongan."
 })
