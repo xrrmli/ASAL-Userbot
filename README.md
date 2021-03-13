@@ -20,6 +20,8 @@
 ### Repo Crash Userbot
 Repo Dibuat Oleh [Ramli](https://t.me/mentalbrikden) 
 
+![Crash Userbot Logo](https://telegra.ph/file/707b8e8da6b5c48a975f5.jpg)
+
 
 ### CARA MENDAPATKAN STRING SESSON
 
