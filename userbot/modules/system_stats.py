@@ -218,7 +218,7 @@ async def pipcheck(pip):
         await pip.edit("Gunakan `.help pip` Untuk Melihat Contoh")
 
 
-@register(outgoing=True, pattern=r"^\.(?:lord|lordon)\s?(.)?")
+@register(outgoing=True, pattern=r"^\.(?:crash|crash)\s?(.)?")
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
@@ -228,9 +228,9 @@ async def amireallyalive(alive):
         f"**━━━━━━━━━━━━━━━━━━━━**\n"
         f"✣ ᴏᴡɴᴇʀ        : {DEFAULTUSER}\n"
         f"✣ ᴜsᴇʀɴᴀᴍᴇ : `@{user.username}\n"
-        f"✣ ʙᴏᴛ ᴠᴇʀ      : `Ver {version.__version__} \n"
+        f"✣ ᴛᴇʟᴇᴛʜᴏɴ   : `Ver {version.__version__} \n"
         f"✣ ᴘʏᴛʜᴏɴ      : `Ver {python_version()} \n"
-        f"✣ ʙᴏᴛ ᴠᴇʀ      : `{BOT_VER} \n"
+        f"✣ ʙᴏᴛ ᴠᴇʀ   : `{BOT_VER} \n"
         f"✣ ᴍᴏᴅᴜʟᴇs   : `{len(modules)} \n"
         f"━━━━━━━━━━━━━━━━━━━━ ")
     if ALIVE_LOGO:
