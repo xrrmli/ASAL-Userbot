@@ -88,11 +88,11 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^.tembak(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("_/﹋\\_\n"
-                     "(҂`_´)\n"
-                     "<,︻╦╤─ ҉\n"
-                     r"_/﹋\_"
-                     "\n**Mau Ngentud Gak?!**")
+    await typew.edit("╔══╗\n"
+                     "╚╗╔╝\n"
+                     "╔╝(¯v´¯)\n"
+                    r"╚══. ¸ .[ALIVE_NAME]"
+                     "\n**Love Youuu💗!**")
 
 
 @register(outgoing=True, pattern='^.bundir(?: |$)(.*)')
