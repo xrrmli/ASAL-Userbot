@@ -91,7 +91,7 @@ async def typewriter(typew):
     await typew.edit("╔══╗\n"
                      "╚╗╔╝\n"
                      "╔╝(¯v´¯)\n"
-                    r"╚══. ¸ .{DEFAULTUSER}"
+                    r"╚══. ¸ .{ALIVE_NAME}"
                      "\n**Love Youuu💗!**")
 
 
