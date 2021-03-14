@@ -85,7 +85,7 @@ async def typewriter(typew):
                      "╬═╬/ \\ \n")
 
 
-@register(outgoing=True, pattern='^.tembak(?: |$)(.*)')
+@register(outgoing=True, pattern='^.loveu(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("╔══╗\n"
