@@ -226,11 +226,11 @@ async def amireallyalive(alive):
         f" **𝗥𝗘𝗣𝗢 | 𝗖𝗥𝗔𝗦𝗛 𝗨𝗦𝗘𝗥𝗕𝗢𝗧** \n"
         f"\n__**{LORD_TEKS_KUSTOM}**__\n"
         f"**━━━━━━━━━━━━━━━━━━━━**\n"
-        f"ᴍᴀsᴛᴇʀ       : {DEFAULTUSER}\n"
-        f"ᴜsᴇʀɴᴀᴍᴇ : `@{user.username}\n"
-        f"ᴛᴇʟᴇᴛʜᴏɴ : Ver {version.__version__} \n"
-        f"ᴘʏᴛʜᴏɴ       : Ver {python_version()} \n"
-        f"ʙᴏᴛ ᴠᴇʀ  : {BOT_VER} \n"
+        f"ᴍᴀsᴛᴇʀ      : {DEFAULTUSER}\n"
+        f"ᴜsᴇʀɴᴀᴍᴇ : `@{user.username}`\n"
+        f"ᴛᴇʟᴇᴛʜᴏɴ   : Ver {version.__version__} \n"
+        f"ᴘʏᴛʜᴏɴ      : Ver {python_version()} \n"
+        f"ʙᴏᴛ ᴠᴇʀ     : {BOT_VER} \n"
         f"ᴍᴏᴅᴜʟᴇs    : {len(modules)} \n"
         f"━━━━━━━━━━━━━━━━━━━━ ")
     if ALIVE_LOGO:
