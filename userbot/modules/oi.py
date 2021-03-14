@@ -30,12 +30,9 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(3)
-    await typew.edit("`i just wanna say`")
+    await typew.edit("`Hei`")
     sleep(3)
-    await typew.edit("`I LOVE YOU`")
+    await typew.edit("`I Just Wanna Say`")
     sleep(1)
-    await typew.edit("`╔══╗
-╚╗╔╝
-╔╝(¯v´¯)
-╚══. ¸ .{DEFAULTUSER}`")
+    await typew.edit("`I LOVE YOU🥺`")
 # Create by myself @localheart
