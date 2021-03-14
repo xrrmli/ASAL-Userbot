@@ -46,16 +46,16 @@ async def pingme(pong):
     """ For .ping command, ping the userbot from any chat.  """
     await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    await pong.edit("**𖣘 𝗛𝗮𝗶 𖣘**")
-    await pong.edit("**𖣘𖣘 𝗖𝗮𝗻𝘁𝗶𝗸 𖣘𖣘**")
-    await pong.edit("**𖣘𖣘𖣘 𝗡𝗴𝗲𝗻𝘁𝗼𝘁 𖣘𖣘𖣘**")
-    await pong.edit("**𖣘𖣘𖣘𖣘 𝗬𝘂𝗸𝗸𝗸 𖣘𖣘𖣘𖣘**")
+    await pong.edit("** JINGKONTOD **")
+    await pong.edit("** ANJING **")
+    await pong.edit("** KONTOL **")
+    await pong.edit("** NGENTOD **")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**𖣘𝐏𝐈𝐍𝐆** "
-                    f"\n  ➢ `%sms` \n"
-                    f"**𖣘𝐁𝐎𝐒𝐒** "
-                    f"\n  ➢ `{ALIVE_NAME}` \n" % (duration))
+    await pong.edit(f"**𝗣𝗜𝗡𝗚** "
+                    f"\n➟ `%sms` \n"
+                    f"**𝗕𝗢𝗦𝗦** "
+                    f"\n➟ `{ALIVE_NAME}` \n" % (duration))
 
 
 @register(outgoing=True, pattern="^.lping$")
@@ -131,7 +131,7 @@ async def speedtst(spd):
                    f"`{result['ping']}` \n"
                    "❃ **ISP:** "
                    f"`{result['client']['isp']}` \n"
-                   "❃ **BOT:** `Lord Userbot`")
+                   "❃ **BOT:** `Crash Userbot`")
 
 
 def speed_convert(size):
@@ -154,7 +154,7 @@ async def pingme(pong):
     await pong.edit("`TITITT.....🔨`")
     end = datetime.now()
     duration = (end - start).microseconds / 9000
-    await pong.edit("➢ **𝐒𝐄𝐏𝐎𝐍𝐆𝐆𝐆🔥🥵**\n`%sms`" % (duration))
+    await pong.edit("**KONTOLLLLL🔥🥵**\n`%sms`" % (duration))
 
 CMD_HELP.update(
     {"ping": "`.ping` ; `.lping` ; `.xping` ; `.sping`\
