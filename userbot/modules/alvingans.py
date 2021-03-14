@@ -99,7 +99,7 @@ async def typewriter(typew):
                      "      ▀█▓▓▒▒░▒▒▓▓█▀\n"
                      "        ▀█▓▓▒▓▓█▀\n"
                      "          ▀█▓█▀\n"
-                    r"            ▀
+                     "            ▀
                      "\n**Love Youu")
 
 
