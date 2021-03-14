@@ -12,7 +12,7 @@
 </p>  
 
 # Crash Userbot
-![Crash Userbot Logo](https://telegra.ph/file/c62c239b6b7a3dcbe4d72.jpg)
+![Crash Userbot Logo](https://telegra.ph/file/d032447a6bb23e99a566d.jpg)
 
 <h3 align="center">Userbot Yang Digunakan Untuk Bersenang-Senang Di Telegram</h3>
 <p align="center">&nbsp;</p>
