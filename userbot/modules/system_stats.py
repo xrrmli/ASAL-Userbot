@@ -226,12 +226,12 @@ async def amireallyalive(alive):
         f" **𝗥𝗘𝗣𝗢 | 𝗖𝗥𝗔𝗦𝗛 𝗨𝗦𝗘𝗥𝗕𝗢𝗧** \n"
         f"\n__**{LORD_TEKS_KUSTOM}**__\n"
         f"**━━━━━━━━━━━━━━━━━━━━**\n"
-        f"⚠︎ 𝗠𝗔𝗦𝗧𝗘𝗥      : {DEFAULTUSER}\n"
-        f"⚠︎ 𝗨𝗦𝗘𝗥𝗡𝗔𝗠𝗘 : `@{user.username}\n"
-        f"⚠︎ 𝗧𝗘𝗟𝗘𝗧𝗛𝗢𝗡   : `Ver {version.__version__} \n"
-        f"⚠︎ 𝗣𝗬𝗧𝗛𝗢𝗡      : `Ver {python_version()} \n"
-        f"⚠︎ 𝗕𝗢𝗧 𝗩𝗘𝗥   : `{BOT_VER} \n"
-        f"⚠︎ 𝗠𝗢𝗗𝗨𝗟𝗘𝗦   : `{len(modules)} \n"
+        f"❖ 𝗠𝗔𝗦𝗧𝗘𝗥      : {DEFAULTUSER}\n"
+        f"❖ 𝗨𝗦𝗘𝗥𝗡𝗔𝗠𝗘 : `@{user.username}\n"
+        f"❖𝗧𝗘𝗟𝗘𝗧𝗛𝗢𝗡   : `Ver {version.__version__} \n"
+        f"❖ 𝗣𝗬𝗧𝗛𝗢𝗡      : `Ver {python_version()} \n"
+        f"❖ 𝗕𝗢𝗧 𝗩𝗘𝗥   : `{BOT_VER} \n"
+        f"❖ 𝗠𝗢𝗗𝗨𝗟𝗘𝗦   : `{len(modules)} \n"
         f"━━━━━━━━━━━━━━━━━━━━ ")
     if ALIVE_LOGO:
         try:
@@ -260,13 +260,13 @@ async def amireallyalive(alive):
     output = (
         f"**▬▬▬▬▬▬❙۩♛۩❙▬▬▬▬▬▬**\n"
         f"𝗥𝗘𝗣𝗢 | 𝗖𝗥𝗔𝗦𝗛 𝗨𝗦𝗘𝗥𝗕𝗢𝗧** \n\n"
-        f"⚠︎ **Owner**     \n   ➪ `{DEFAULTUSER}` \n"
-        f"⚠︎ **Username** \n   ➪ `@{user.username}` \n"
-        f"⚠︎ **Telethon** \n   ➪ `Versi {version.__version__}` \n"
-        f"⚠︎ **Python**   \n   ➪ `Versi {python_version()}` \n"
-        f"⚠︎ **Versi Bot**\n   ➪ `{BOT_VER}` \n"
-        f"⚠︎ **Modul**    \n   ➪ `{len(modules)}` \n\n"
-        f"⚠︎ **Repo Userbot:** [Crash-Userbot](https://github.com/xrrmli/Crash-Userbot)\n❃ **instagram: **[Tekan](instagram.com/xrrmli)\n❃ **Pemilik:** [Ramli](t.me/mentalbrikden)\n"
+        f"❖ **Owner**     \n   ➪ `{DEFAULTUSER}` \n"
+        f"❖ **Username** \n   ➪ `@{user.username}` \n"
+        f"❖ **Telethon** \n   ➪ `Versi {version.__version__}` \n"
+        f"❖ **Python**   \n   ➪ `Versi {python_version()}` \n"
+        f"❖ **Versi Bot**\n   ➪ `{BOT_VER}` \n"
+        f"❖ **Modul**    \n   ➪ `{len(modules)}` \n\n"
+        f"❖ **Repo Userbot:** [Crash-Userbot](https://github.com/xrrmli/Crash-Userbot)\n❃ **instagram: **[Tekan](instagram.com/xrrmli)\n❃ **Pemilik:** [Ramli](t.me/mentalbrikden)\n"
         f"**▬▬▬▬▬▬❙۩★۩❙▬▬▬▬▬▬**")
     if ALIVE_LOGO:
         try:
@@ -295,13 +295,13 @@ async def amireallyalive(alive):
     output = (
         f"**- 𝗥𝗘𝗣𝗢 | 𝗖𝗥𝗔𝗦𝗛 𝗨𝗦𝗘𝗥𝗕𝗢𝗧⚠︎ -** \n"
         f"━━━━━━━━━━━━━━━━━━━━ \n"
-        f" ⚠︎ 𝗢𝘄𝗻𝗲𝗿        : {DEFAULTUSER} \n"
-        f" ⚠︎ 𝗨𝘀𝗲𝗿𝗻𝗮𝗺𝗲 :@{user.username} \n"
-        f" ⚠︎ 𝗧𝗲𝗹𝗲𝘁𝗵𝗼𝗻    : Ver {version.__version__} \n"
-        f" ⚠︎ 𝗣𝘆𝘁𝗵𝗼𝗻       : Ver {python_version()} \n"
-        f" ⚠︎ 𝗕𝗿𝗮𝗻𝗰𝗵       : {UPSTREAM_REPO_BRANCH} \n"
-        f" ⚠︎ 𝗕𝗼𝘁 𝗩𝗲𝗿      : {BOT_VER} \n"
-        f" ⚠︎ 𝗠𝗼𝗱𝘂𝗹𝗲𝘀    : {len(modules)} Modules \n"
+        f" ❖ 𝗢𝘄𝗻𝗲𝗿        : {DEFAULTUSER} \n"
+        f" ❖ 𝗨𝘀𝗲𝗿𝗻𝗮𝗺𝗲 :@{user.username} \n"
+        f" ❖ 𝗧𝗲𝗹𝗲𝘁𝗵𝗼𝗻    : Ver {version.__version__} \n"
+        f" ❖ 𝗣𝘆𝘁𝗵𝗼𝗻       : Ver {python_version()} \n"
+        f" ❖ 𝗕𝗿𝗮𝗻𝗰𝗵       : {UPSTREAM_REPO_BRANCH} \n"
+        f" ❖ 𝗕𝗼𝘁 𝗩𝗲𝗿      : {BOT_VER} \n"
+        f" ❖ 𝗠𝗼𝗱𝘂𝗹𝗲𝘀    : {len(modules)} Modules \n"
         f"━━━━━━━━━━━━━━━━━━━━\n\n"
         f"[Repo](https://github.com/xrrmli/Crash-Userbot) | [Instagram](Instagram.com/xrrmli) | [Owner](t.me/mentalbrikden)")
     if ALIVE_LOGO:
