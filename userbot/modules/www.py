@@ -79,11 +79,12 @@ async def pingme(pong):
     await pong.edit("⬛️⬛️⬛️⬛️⬛️ \n⬛️🟨🟨🟨⬛️ \n⬛️🟨⬛️⬛️⬛️ \n⬛️🟨⬛️⬛️⬛️ \n⬛️🟨⬛️⬛️⬛️ \n⬛️🟨🟨🟨⬛️ \n⬛️⬛️⬛️⬛️⬛️ \n⬛️🟨🟨🟨⬛️ \n⬛️🟨⬛️🟨⬛️ \n⬛️🟨🟨🟨⬛️ \n⬛️🟨🟨⬛️⬛️ \n⬛️🟨⬛🟨⬛️ \n⬛️⬛️⬛️⬛️⬛️ \n⬛️🟨🟨🟨⬛️ \n⬛️🟨⬛️🟨⬛️ \n⬛️🟨⬛🟨⬛️ \n⬛️🟨🟨🟨⬛️ \n⬛🟨⬛🟨⬛️ \n⬛⬛️⬛️⬛️⬛️ \n⬛️🟨🟨🟨⬛️ \n⬛️🟨⬛️⬛⬛️ \n⬛️🟨🟨🟨⬛️ \n⬛️⬛⬛🟨⬛️ \n⬛️🟨🟨🟨⬛️ \n⬛️⬛️⬛️⬛️⬛️ \n⬛️🟨⬛️🟨⬛️ \n⬛️🟨⬛️🟨⬛️ \n⬛️🟨🟨🟨⬛️ \n⬛️🟨⬛️🟨⬛️ \n⬛️🟨⬛️🟨⬛️ \n⬛️⬛️⬛️⬛️⬛️")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f" -𝐂𝐑𝐀𝐒𝐇 𝐔𝐒𝐄𝐑𝐁𝐎𝐓- \n"
-                    f"**𝗣𝗜𝗡𝗚** "
-                    f"\n☠︎︎`%sms` \n"
-                    f"**𝗕𝗢𝗦𝗦** "
-                    f"\n☠︎︎`{ALIVE_NAME}` \n" % (duration))
+    await pong.edit(f"☠︎︎𝘾𝙍𝘼𝙎𝙃-𝙐𝙎𝙀𝙍𝘽𝙊𝙏☠︎︎\n"
+                    f"**• ᴘɪɴɢ   :** "
+                    f"`%sms` \n"
+                    f"**• ᴜᴘᴛɪᴍᴇ  :** "
+                    f"`{uptime}` \n"
+                    f"**• ᴍᴀsᴛᴇʀ  :** `{ALIVE_NAME}`" % (duration))
 
 
 @register(outgoing=True, pattern="^.lping$")
