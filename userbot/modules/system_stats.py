@@ -224,7 +224,6 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     output = (
         f" **𝗥𝗘𝗣𝗢 | 𝗖𝗥𝗔𝗦𝗛 𝗨𝗦𝗘𝗥𝗕𝗢𝗧** \n"
-        f"\n__**{LORD_TEKS_KUSTOM}**__\n"
         f"• ᴍᴀsᴛᴇʀ      : {DEFAULTUSER}\n"
         f"• ᴜsᴇʀɴᴀᴍᴇ : `@{user.username}`\n"
         f"• ᴛᴇʟᴇᴛʜᴏɴ   : Ver {version.__version__} \n"
@@ -232,19 +231,9 @@ async def amireallyalive(alive):
         f"• ʙᴏᴛ ᴠᴇʀ     : {BOT_VER} \n"
         f"• ᴍᴏᴅᴜʟᴇs    : {len(modules)} \n"
         f" \n"
-        f"[Repo](https://github.com/xrrmli/Crash-Userbot)\n[Instagram](instagram.com/xrrmli)\n[Owner](t.me/mentalbrikden)\n"
+        f"[Repo](https://github.com/xrrmli/Crash-Userbot) | [Instagram](Instagram.com/xrrmli) | [Owner](t.me/mentalbrikden)")"
         f"")
-    if ALIVE_LOGO:
-        try:
-            logo = ALIVE_LOGO
-            await alive.delete()
-            msg = await bot.send_file(alive.chat_id, logo, caption=output)
-            await asyncio.sleep(200)
-            await msg.delete()
-        except BaseException:
-            await alive.edit(
-                output + "\n\n *`The provided logo is invalid."
-                "\nMake sure the link is directed to the logo picture`"
+    
             )
             await asyncio.sleep(100)
             await alive.delete()
