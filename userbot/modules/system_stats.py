@@ -232,7 +232,8 @@ async def amireallyalive(alive):
         f"ᴘʏᴛʜᴏɴ      : Ver {python_version()} \n"
         f"ʙᴏᴛ ᴠᴇʀ     : {BOT_VER} \n"
         f"ᴍᴏᴅᴜʟᴇs    : {len(modules)} \n"
-        f"**Repo Userbot:** [Crash-Userbot](https://github.com/xrrmli/Crash-Userbot)\n❃ **instagram: **[Tekan](instagram.com/xrrmli)\n❃ **Pemilik:** [Ramli](t.me/mentalbrikden)\n"
+        f" \n"
+        f"**Repo Userbot:** [Crash-Userbot](https://github.com/xrrmli/Crash-Userbot)\n **instagram: **[Tekan](instagram.com/xrrmli)\n **Pemilik:** [Ramli](t.me/mentalbrikden)\n"
         f"━━━━━━━━━━━━━━━━━━━━ ")
     if ALIVE_LOGO:
         try:
@@ -302,8 +303,7 @@ async def amireallyalive(alive):
         f" ❖ 𝗣𝘆𝘁𝗵𝗼𝗻       : Ver {python_version()} \n"
         f" ❖ 𝗕𝗿𝗮𝗻𝗰𝗵       : {UPSTREAM_REPO_BRANCH} \n"
         f" ❖ 𝗕𝗼𝘁 𝗩𝗲𝗿      : {BOT_VER} \n"
-        f" ❖ 𝗠𝗼𝗱𝘂𝗹𝗲𝘀    : {len(modules)} Modules \n"
-        f" \n\n"
+        f" ❖ 𝗠𝗼𝗱𝘂𝗹𝗲𝘀    : {len(modules)} Modules \n\n"
         f"[Repo](https://github.com/xrrmli/Crash-Userbot) | [Instagram](Instagram.com/xrrmli) | [Owner](t.me/mentalbrikden)")
     if ALIVE_LOGO:
         try:
