@@ -225,16 +225,15 @@ async def amireallyalive(alive):
     output = (
         f" **𝗥𝗘𝗣𝗢 | 𝗖𝗥𝗔𝗦𝗛 𝗨𝗦𝗘𝗥𝗕𝗢𝗧** \n"
         f"\n__**{LORD_TEKS_KUSTOM}**__\n"
-        f"**━━━━━━━━━━━━━━━━━━━━**\n"
-        f"ᴍᴀsᴛᴇʀ      : {DEFAULTUSER}\n"
-        f"ᴜsᴇʀɴᴀᴍᴇ : `@{user.username}`\n"
-        f"ᴛᴇʟᴇᴛʜᴏɴ   : Ver {version.__version__} \n"
-        f"ᴘʏᴛʜᴏɴ      : Ver {python_version()} \n"
-        f"ʙᴏᴛ ᴠᴇʀ     : {BOT_VER} \n"
-        f"ᴍᴏᴅᴜʟᴇs    : {len(modules)} \n"
+        f"• ᴍᴀsᴛᴇʀ      : {DEFAULTUSER}\n"
+        f"• ᴜsᴇʀɴᴀᴍᴇ : `@{user.username}`\n"
+        f"• ᴛᴇʟᴇᴛʜᴏɴ   : Ver {version.__version__} \n"
+        f"• ᴘʏᴛʜᴏɴ      : Ver {python_version()} \n"
+        f"• ʙᴏᴛ ᴠᴇʀ     : {BOT_VER} \n"
+        f"• ᴍᴏᴅᴜʟᴇs    : {len(modules)} \n"
         f" \n"
-        f"**Repo Userbot:** [Crash-Userbot](https://github.com/xrrmli/Crash-Userbot)\n**instagram: **[Tekan](instagram.com/xrrmli)\n**Pemilik:** [Ramli](t.me/mentalbrikden)\n"
-        f"━━━━━━━━━━━━━━━━━━━━ ")
+        f"[Repo](https://github.com/xrrmli/Crash-Userbot)\n[Instagram](instagram.com/xrrmli)\n[Owner](t.me/mentalbrikden)\n"
+        f"")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
