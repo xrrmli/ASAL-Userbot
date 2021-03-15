@@ -102,12 +102,10 @@ async def pingme(pong):
     await pong.edit("**100% ██████████**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"- 𝐂𝐑𝐀𝐒𝐇 -\n"
-                    f"**• ᴘɪɴɢ:** "
-                    f"`%sms` \n"
-                    f"**• ᴜᴘᴛɪᴍᴇ:** "
-                    f"`{uptime}` \n"
-                    f"**• ᴍᴀsᴛᴇʀ:** `{ALIVE_NAME}`" % (duration))
+    await pong.edit(f"☠︎︎𝘾𝙍𝘼𝙎𝙃-𝙐𝙎𝙀𝙍𝘽𝙊𝙏☠︎︎\n"
+                    f"**• ᴘɪɴɢ:** "   f"**• ᴜᴘᴛɪᴍᴇ:** "
+                    f"`%sms` \n"     f"`{uptime}` \n"
+                       f"**• ᴍᴀsᴛᴇʀ:** `{ALIVE_NAME}`" % (duration))
 
 
 @register(outgoing=True, pattern="^.speed$")
