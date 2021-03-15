@@ -232,8 +232,7 @@ async def amireallyalive(alive):
         f"• ᴍᴏᴅᴜʟᴇs    : {len(modules)} \n"
         f" \n"
         f"[Repo](https://github.com/xrrmli/Crash-Userbot) | [Instagram](Instagram.com/xrrmli) | [Owner](t.me/mentalbrikden)")
-    
-            )
+   
             await asyncio.sleep(100)
             await alive.delete()
     else:
