@@ -224,6 +224,7 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     output = (
         f" **𝗥𝗘𝗣𝗢 | 𝗖𝗥𝗔𝗦𝗛 𝗨𝗦𝗘𝗥𝗕𝗢𝗧** \n"
+        f" \n"
         f"• ᴍᴀsᴛᴇʀ      : {DEFAULTUSER}\n"
         f"• ᴜsᴇʀɴᴀᴍᴇ : `@{user.username}`\n"
         f"• ᴛᴇʟᴇᴛʜᴏɴ   : Ver {version.__version__} \n"
@@ -292,7 +293,7 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"**- 𝗥𝗘𝗣𝗢 | 𝗖𝗥𝗔𝗦𝗛 𝗨𝗦𝗘𝗥𝗕𝗢𝗧⚠︎ -** \n"
+        f"**- 𝗥𝗘𝗣𝗢 | 𝗖𝗥𝗔𝗦𝗛 𝗨𝗦𝗘𝗥𝗕𝗢𝗧 -** \n"
         f"\n"
         f" ❖ 𝗢𝘄𝗻𝗲𝗿        : {DEFAULTUSER} \n"
         f" ❖ 𝗨𝘀𝗲𝗿𝗻𝗮𝗺𝗲 :@{user.username} \n"
