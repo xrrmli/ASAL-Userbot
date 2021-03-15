@@ -45,7 +45,7 @@ async def get_readable_time(seconds: int) -> str:
 async def pingme(pong):
     """ For .ping command, ping the userbot from any chat.  """
     await get_readable_time((time.time() - StartTime))
-    start = datetime.now()await pong.edit("`LOADING...`")
+    start = datetime.now()
     await pong.edit("**100% ██████████**")
     await pong.edit("**80% ████████▒▒**")
     await pong.edit("**60% ██████▒▒▒▒**")
