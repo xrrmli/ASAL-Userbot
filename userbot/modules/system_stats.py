@@ -233,7 +233,7 @@ async def amireallyalive(alive):
         f"ʙᴏᴛ ᴠᴇʀ     : {BOT_VER} \n"
         f"ᴍᴏᴅᴜʟᴇs    : {len(modules)} \n"
         f" \n"
-        f"**Repo Userbot:** [Crash-Userbot](https://github.com/xrrmli/Crash-Userbot)\n **instagram: **[Tekan](instagram.com/xrrmli)\n **Pemilik:** [Ramli](t.me/mentalbrikden)\n"
+        f"**Repo Userbot:** [Crash-Userbot](https://github.com/xrrmli/Crash-Userbot)\n**instagram: **[Tekan](instagram.com/xrrmli)\n**Pemilik:** [Ramli](t.me/mentalbrikden)\n"
         f"━━━━━━━━━━━━━━━━━━━━ ")
     if ALIVE_LOGO:
         try:
