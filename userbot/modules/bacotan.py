@@ -10,28 +10,36 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 @register(outgoing=True, pattern='^.goblok(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
+    sleep(2)
     await typew.edit("Goblok Bgt Emg")
+    sleep(1)
     await typew.edit("Anak Goblokk!!")
 
 
 @register(outgoing=True, pattern='^.ps(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
+    sleep(2)
     await typew.edit("Paansi Babi")
+    sleep(1)
     await typew.edit("Gajelas Goblok")
 
 
 @register(outgoing=True, pattern='^.ga(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
+    sleep(2)
     await typew.edit("Gada-Gada")
+    sleep(1)
     await typew.edit("Pokonya Enggaa")
 
 
 @register(outgoing=True, pattern='^.skb(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
+    sleep(2)
     await typew.edit("Ni Siapa Si Anjing")
+    sleep(1)
     await typew.edit("Sokab Bgt Pepek")
 
 
