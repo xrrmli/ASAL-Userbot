@@ -302,7 +302,7 @@ async def amireallyalive(alive):
         f" ☠︎︎ 𝗕𝗿𝗮𝗻𝗰𝗵       : {UPSTREAM_REPO_BRANCH} \n"
         f" ☠︎︎ 𝗕𝗼𝘁 𝗩𝗲𝗿      : {BOT_VER} \n"
         f" ☠︎︎ 𝗠𝗼𝗱𝘂𝗹𝗲𝘀    : {len(modules)} Modules \n"
-        f""━━━━━━━━━━━━━━━━━━━━\n\n"
+        f""━━━━━━━━━━━━━━━━━━━━\n"
         f"[Repo](https://github.com/xrrmli/Crash-Userbot) | [Instagram](Instagram.com/xrrmli) | [Owner](t.me/mentalbrikden)")
     if ALIVE_LOGO:
         try:
