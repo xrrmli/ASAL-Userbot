@@ -88,8 +88,7 @@ async def pingme(pong):
                     f"▰▱▰▱▰▱▰▱▰▱\n"
                     f"**⌬ ᴘɪɴɢ   :** "
                     f"`%sms` \n"
-                    f"**⌬ ᴍᴀsᴛᴇʀ  :** `{ALIVE_NAME}`"
-                    f"◈ OWNER [Ramli] (t.me/mentalbrikden) " % (duration))
+                    f"**⌬ ᴍᴀsᴛᴇʀ  :** `{ALIVE_NAME}`" % (duration))
 
 
 @register(outgoing=True, pattern="^.lping$")
