@@ -85,10 +85,10 @@ async def pingme(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"- 𝐂 𝐑 𝐀 𝐒 𝐇 -\n"
-                    f"━━━━━━━━━━━━\n"
-                    f"**• ᴘɪɴɢ   :** "
+                    f"▰ ▱ ▰ ▱ ▰ ▱  \n"
+                    f"**⌬ ᴘɪɴɢ   :** "
                     f"`%sms` \n"
-                    f"**• ᴏᴡɴᴇʀ  :** `{ALIVE_NAME}`" % (duration))
+                    f"**⌬ ᴍᴀsᴛᴇʀ  :** `{ALIVE_NAME}`" % (duration))
 
 
 @register(outgoing=True, pattern="^.lping$")
@@ -103,9 +103,9 @@ async def pingme(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**- 𝐒 𝐀 𝐆 𝐀 𝐏 𝐔 𝐍 𝐆 -**\n"
-                    f"**❥︎ ᴋᴇᴄᴇᴘᴀᴛᴀɴ sɪ ᴊᴏɴɪ:** "
+                    f"**➻ ᴋᴇᴄᴇᴘᴀᴛᴀɴ sɪ ᴊᴏɴɪ:** "
                     f"`%sms` \n"
-                    f"**❥︎ ᴛᴀʜᴀɴ ʟᴀᴍᴀ sɪ ᴊᴏɴɪ:** "
+                    f"**➻ ᴛᴀʜᴀɴ ʟᴀᴍᴀ sɪ ᴊᴏɴɪ:** "
                     f"`{uptime}` \n" % (duration))
 
 
@@ -143,12 +143,12 @@ async def pingme(pong):
     await pong.edit("**100% ██████████**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"- 𝐂 𝐑 𝐀 𝐒 𝐇 -\n"
-                    f"**• ᴍʏ ᴘɪɴɢ :** "
+    await pong.edit(f"- 𝗖𝗥𝗔𝗦𝗛-𝗕𝗢𝗧 -\n"
+                    f"**⌬ ᴍʏ ᴘɪɴɢ :** "
                     f"`%sms` \n"
-                    f"**• ᴜᴘᴛɪᴍᴇ  :** "
+                    f"**⌬ ᴜᴘᴛɪᴍᴇ  :** "
                     f"`{uptime}` \n"
-                    f"**• ᴍᴀsᴛᴇʀ  :** `{ALIVE_NAME}`" % (duration))
+                    f"**⌬ ᴍᴀsᴛᴇʀ  :** `{ALIVE_NAME}`" % (duration))
 
 
 @register(outgoing=True, pattern="^.speed$")
