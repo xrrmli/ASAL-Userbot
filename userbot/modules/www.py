@@ -8,6 +8,7 @@
 
 from datetime import datetime
 
+fromm time import sleep
 from speedtest import Speedtest
 from userbot import CMD_HELP, StartTime, ALIVE_NAME
 from userbot.events import register
@@ -78,13 +79,15 @@ async def pingme(pong):
     await pong.edit("⬛️⬛️⬛️⬛️⬛️ \n⬛️🟨🟨🟨⬛️ \n⬛️🟨⬛️⬛️⬛️ \n⬛️🟨⬛️⬛️⬛️ \n⬛️🟨⬛️⬛️⬛️ \n⬛️🟨🟨🟨⬛️ \n⬛️⬛️⬛️⬛️⬛️ \n⬛️🟨🟨🟨⬛️ \n⬛️🟨⬛️🟨⬛️ \n⬛️🟨🟨🟨⬛️ \n⬛️🟨🟨⬛️⬛️ \n⬛️🟨⬛🟨⬛️ \n⬛️⬛️⬛️⬛️⬛️ \n⬛️🟨🟨🟨⬛️ \n⬛️🟨⬛️🟨⬛️ \n⬛️🟨⬛🟨⬛️ \n⬛️🟨🟨🟨⬛️ \n⬛🟨⬛🟨⬛️ \n⬛⬛️⬛️⬛️⬛️ \n⬛️🟨🟨🟨⬛️ \n⬛️🟨⬛️⬛⬛️ \n⬛️🟨🟨🟨⬛️ \n⬛️⬛⬛🟨⬛️ \n⬛️🟨🟨🟨⬛️ \n⬛️⬛️⬛️⬛️⬛️ \n⬛️🟨⬛️🟨⬛️ \n⬛️🟨⬛️🟨⬛️ \n⬛️🟨🟨🟨⬛️ \n⬛️🟨⬛️🟨⬛️ \n⬛️🟨⬛️🟨⬛️")
     await pong.edit("⬛️⬛️⬛️⬛️⬛️ \n⬛️🟨🟨🟨⬛️ \n⬛️🟨⬛️⬛️⬛️ \n⬛️🟨⬛️⬛️⬛️ \n⬛️🟨⬛️⬛️⬛️ \n⬛️🟨🟨🟨⬛️ \n⬛️⬛️⬛️⬛️⬛️ \n⬛️🟨🟨🟨⬛️ \n⬛️🟨⬛️🟨⬛️ \n⬛️🟨🟨🟨⬛️ \n⬛️🟨🟨⬛️⬛️ \n⬛️🟨⬛🟨⬛️ \n⬛️⬛️⬛️⬛️⬛️ \n⬛️🟨🟨🟨⬛️ \n⬛️🟨⬛️🟨⬛️ \n⬛️🟨⬛🟨⬛️ \n⬛️🟨🟨🟨⬛️ \n⬛🟨⬛🟨⬛️ \n⬛⬛️⬛️⬛️⬛️ \n⬛️🟨🟨🟨⬛️ \n⬛️🟨⬛️⬛⬛️ \n⬛️🟨🟨🟨⬛️ \n⬛️⬛⬛🟨⬛️ \n⬛️🟨🟨🟨⬛️ \n⬛️⬛️⬛️⬛️⬛️ \n⬛️🟨⬛️🟨⬛️ \n⬛️🟨⬛️🟨⬛️ \n⬛️🟨🟨🟨⬛️ \n⬛️🟨⬛️🟨⬛️ \n⬛️🟨⬛️🟨⬛️ \n⬛️⬛️⬛️⬛️⬛️")
     await pong.edit(" ☠︎︎𝘾𝙍𝘼𝙎𝙃-𝙐𝙎𝙀𝙍𝘽𝙊𝙏☠︎︎")
+    sleep(1)
     await pong.edit("⚡𝗺𝗲𝗻𝘁𝗮𝗹𝗯𝗿𝗶𝗸𝗱𝗲𝗻⚡")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"- 𝐁 𝐄 𝐑 𝐊 𝐀 𝐘 𝐔 -\n"
-                    f"**🪵 ᴘɪɴɢ   :** "
+    await pong.edit(f"- 𝐂 𝐑 𝐀 𝐒 𝐇 -\n"
+                    f"━━━━━━━━━━━━━"
+                    f"**• ᴘɪɴɢ   :** "
                     f"`%sms` \n"
-                    f"**🪵 ᴏᴡɴᴇʀ  :** `{ALIVE_NAME}`" % (duration))
+                    f"**• ᴏᴡɴᴇʀ  :** `{ALIVE_NAME}`" % (duration))
 
 
 @register(outgoing=True, pattern="^.lping$")
