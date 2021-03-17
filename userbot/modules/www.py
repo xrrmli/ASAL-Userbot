@@ -8,7 +8,8 @@
 
 from datetime import datetime
 
-fromm time import sleep
+from time import sleep
+from userbot.events import register
 from speedtest import Speedtest
 from userbot import CMD_HELP, StartTime, ALIVE_NAME
 from userbot.events import register
