@@ -98,17 +98,37 @@ async def pingme(pong):
     """ For .ping command, ping the userbot from any chat.  """
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    await pong.edit("`CROOTTTT💦🥵..............`")
-    await pong.edit("`KONTOL`")
-    await pong.edit("`MEMEK`")
-    await pong.edit("`JEMBUT`")
+    await pong.edit("LOADING")
+    await pong.edit("PLEASE WAITING")
+    await pong.edit("▁")
+    await pong.edit("▁▂")
+    await pong.edit("▁▂▃")
+    await pong.edit("▁▂▃▄")
+    await pong.edit("▁▂▃▄▅")
+    await pong.edit("▁▂▃▄▅▆")
+    await pong.edit("▁▂▃▄▅▆▇")
+    await pong.edit("▁▂▃▄▅▆▇█")
+    await pong.edit("▂▃▄▅▆▇█▇")
+    await pong.edit("▃▄▅▆▇█▇▆")
+    await pong.edit("▄▅▆▇█▇▆▅")
+    await pong.edit("▅▆▇█▇▆▅▄")
+    await pong.edit("▆▇█▇▆▅▄▃")
+    await pong.edit("▇█▇▆▅▄▃▂")
+    await pong.edit("█▇▆▅▄▃▂▁")
+    await pong.edit("LOADING COMPLETED.")
+    await pong.edit("LOADING COMPLETED..")
+    await pong.edit("LOADING COMPLETED...")
+    await pong.edit("⚡𝗖𝗥𝗔𝗦𝗛-𝗨𝗦𝗘𝗥𝗕𝗢𝗧⚡")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**- 𝐒 𝐀 𝐆 𝐀 𝐏 𝐔 𝐍 𝐆 -**\n"
-                    f"**➻ ᴋᴇᴄᴇᴘᴀᴛᴀɴ sɪ ᴊᴏɴɪ:** "
+    await pong.edit(f"⚡𝗖𝗥𝗔𝗦𝗛-𝗨𝗦𝗘𝗥𝗕𝗢𝗧⚡\n"
+                    f"▰▱▰▱▰▱▰▱▰▱▰\n"
+                    f"**⌬ ᴍʏ ᴘɪɴɢ :** "
                     f"`%sms` \n"
-                    f"**➻ ᴛᴀʜᴀɴ ʟᴀᴍᴀ sɪ ᴊᴏɴɪ:** "
-                    f"`{uptime}` \n" % (duration))
+                    f"**⌬ ᴜᴘᴛɪᴍᴇ   :** "
+                    f"`{uptime}` \n"
+                    f"**⌬ ᴍᴀsᴛᴇʀ  :** `{ALIVE_NAME}`" % (duration))
+
 
 
 @register(outgoing=True, pattern="^.xping$")
