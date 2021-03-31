@@ -11,33 +11,33 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 @register(outgoing=True, pattern='^.goblok(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("Goblok Bgt Emg")
+    await typew.edit("BHAKSSSSS!")
     sleep(1)
-    await typew.edit("Anak Goblokk!!")
+    await typew.edit("*ANAKK GOBLOKKKK!*")
 
 
 @register(outgoing=True, pattern='^.ps(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("Paansi Babi")
+    await typew.edit("*DIH!*")
     sleep(1)
-    await typew.edit("Gajelas Goblok")
+    await typew.edit("*APAANSI NGENTOTT*")
 
 
 @register(outgoing=True, pattern='^.ga(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("Gada-Gada")
+    await typew.edit("*GADA-GADA*")
     sleep(1)
-    await typew.edit("Pokonya Enggaa")
+    await typew.edit("*POKONYA KAGA KONTOL*")
 
 
 @register(outgoing=True, pattern='^.skb(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("Ni Siapa Si Anjing")
+    await typew.edit("*LU SIAPA KONTOL*")
     sleep(1)
-    await typew.edit("Sokab Bgt Pepek")
+    await typew.edit("*SOKAB BANGET NGENTOTTT!*")
 
 
 CMD_HELP.update({
