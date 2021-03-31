@@ -40,6 +40,16 @@ async def typewriter(typew):
     await typew.edit("*SOKAB BANGET NGENTOTTT!*")
 
 
+@register(outgoing=True, pattern='^.skb(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("*WOI GOBLOK*")
+    sleep(1)
+    await typew.edit("*BUAT APA MASUK GC GA NIMBRUNG KONTOL!*")
+    sleep(2)
+    await typew.edit("*CUIH MENDING OUT AJA KONTOLL!*")
+
+
 CMD_HELP.update({
     "bacotan":
     "`.goblok`\
