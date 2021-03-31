@@ -11,53 +11,53 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 @register(outgoing=True, pattern='^.goblok(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("BHAKSSSSS!")
+    await typew.edit("**BHAKSSSSS!**")
     sleep(1)
-    await typew.edit("*ANAKK GOBLOKKKK!*")
+    await typew.edit("**ANAKK GOBLOKKKK!**")
 
 
 @register(outgoing=True, pattern='^.ps(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("*DIH!*")
+    await typew.edit("**DIH!**")
     sleep(1)
-    await typew.edit("*APAANSI NGENTOTT*")
+    await typew.edit("**APAANSI NGENTOTT**")
 
 
 @register(outgoing=True, pattern='^.ga(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("*GADA-GADA*")
+    await typew.edit("**GADA-GADA**")
     sleep(1)
-    await typew.edit("*POKONYA KAGA KONTOL*")
+    await typew.edit("**POKONYA KAGA KONTOL**")
 
 
 @register(outgoing=True, pattern='^.skb(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("*LU SIAPA KONTOL*")
+    await typew.edit("**LU SIAPA KONTOL**")
     sleep(1)
-    await typew.edit("*SOKAB BANGET NGENTOTTT!*")
+    await typew.edit("**SOKAB BANGET NGENTOTTT!**")
 
 
-@register(outgoing=True, pattern='^.skb(?: |$)(.*)')
+@register(outgoing=True, pattern='^.nimb(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("*WOI GOBLOK*")
+    await typew.edit("**WOI GOBLOK**")
     sleep(1)
-    await typew.edit("*BUAT APA MASUK GC GA NIMBRUNG KONTOL!*")
+    await typew.edit("**BUAT APA MASUK GC GA NIMBRUNG KONTOL!**")
     sleep(2)
-    await typew.edit("*CUIH MENDING OUT AJA KONTOLL!*")
+    await typew.edit("**CUIH MENDING OUT AJA KONTOLL!**")
 
 
 CMD_HELP.update({
     "bacotan":
     "`.goblok`\
 \nUsage: buat goblokin.\
-\n\n`.ga`\
+\n\n`.nimb`\
 \nUsage: buat nolak.\
 \n\n`.ps`\
 \nUsage: paansi.\
-\n\n`.skb`\
+\n\n`.nimb`\
 \nUsage: Liat aja."
 })
