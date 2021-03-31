@@ -54,7 +54,7 @@ CMD_HELP.update({
     "bacotan":
     "`.goblok`\
 \nUsage: buat goblokin.\
-\n\n`.nimb`\
+\n\n`.ga`\
 \nUsage: buat nolak.\
 \n\n`.ps`\
 \nUsage: paansi.\
