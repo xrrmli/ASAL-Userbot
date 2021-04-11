@@ -54,7 +54,7 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**Aku membaptis engkau dalam nama Bapa, Anak dan Roh kudus, yaitu Tuhan Yesus Kriatus**")
-    sleep(1)
+    sleep(3)
     await typew.edit("**Aminn**")
 
 
