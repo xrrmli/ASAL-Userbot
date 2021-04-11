@@ -115,9 +115,9 @@ async def pingme(pong):
     await pong.edit("▆▇█▇▆▅▄▃")
     await pong.edit("▇█▇▆▅▄▃▂")
     await pong.edit("█▇▆▅▄▃▂▁")
-    await pong.edit("▇▆▅▄▃▂▁")
-    await pong.edit("▆▅▄▃▂▁")
-    await pong.edit("▅▄▃▂▁")
+    await pong.edit("▇█▇▆▅▄▃▂")
+    await pong.edit("▆▇█▇▆▅▄▃")
+    await pong.edit("▅▆▇█▇▆▅▄")
     await pong.edit("▄▃▂▁")
     await pong.edit("▃▂▁")
     await pong.edit("▂▁")
@@ -136,8 +136,7 @@ async def pingme(pong):
                     f"**│⌬ ᴜᴘᴛɪᴍᴇ   :** "
                     f"`{uptime}` \n"
                     f"**│⌬ ᴍᴀsᴛᴇʀ  :** `{ALIVE_NAME}`\n" 
-                    f"** **" 
-                    f"**╰━━━━━━━━━━━━━━━━━╯** \n" % (duration))
+                    f"╰━━━━━━━━━━━━━━━━━╯ \n" % (duration))
 
 
 
