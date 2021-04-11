@@ -50,12 +50,22 @@ async def typewriter(typew):
     await typew.edit("**CUIH MENDING OUT AJA KONTOLL!**")
 
 
+@register(outgoing=True, pattern='^.baptis(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**Aku membaptis engkau dalam nama Bapa, Anak dan Roh kudus, yaitu Tuhan Yesus Kriatus**")
+    sleep(1)
+    await typew.edit("**Aminn**")
+
+
 CMD_HELP.update({
     "bacotan":
     "`.goblok`\
 \nUsage: buat goblokin.\
 \n\n`.ga`\
 \nUsage: buat nolak.\
+\n\n`.baptis`\
+\nUsage: buat ngebaptis.\
 \n\n`.ps`\
 \nUsage: paansi.\
 \n\n`.nimb`\
