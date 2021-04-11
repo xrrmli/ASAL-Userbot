@@ -136,7 +136,7 @@ async def pingme(pong):
                     f"**│⌬ ᴜᴘᴛɪᴍᴇ   :** "
                     f"`{uptime}` \n"
                     f"**│⌬ ᴍᴀsᴛᴇʀ  :** `{ALIVE_NAME}`" 
-                    f"╰━━━━━━━━━━━━━━━━━╯" % (duration))
+                    f"**╰━━━━━━━━━━━━━━━━━╯**" % (duration))
 
 
 
