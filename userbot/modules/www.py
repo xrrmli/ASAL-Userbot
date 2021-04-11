@@ -84,13 +84,15 @@ async def pingme(pong):
     await pong.edit("⚡𝗺𝗲𝗻𝘁𝗮𝗹𝗯𝗿𝗶𝗸𝗱𝗲𝗻⚡")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"⚡𝗖𝗥𝗔𝗦𝗛-𝗨𝗦𝗘𝗥𝗕𝗢𝗧⚡\n"
-                    f"▰▱▰▱▰▱▰▱▰▱▰\n"
-                    f"**⌬ ᴍʏ ᴘɪɴɢ :** "
+    await pong.edit(f"╭━━━━━━━━━━━━━━━━━╮\n"
+                    f"          - 𝐍 𝐄 𝐓 𝐖 𝐎 𝐑 𝐊 - \n"
+                    f"   ▰▱▰▱▰▱▰▱▰▱▰▱ \n"
+                    f"**        ➾ Signal  :** "
                     f"`%sms` \n"
-                    f"**⌬ ᴜᴘᴛɪᴍᴇ   :** "
+                    f"**        ➾ Uptime  :** "
                     f"`{uptime}` \n"
-                    f"**⌬ ᴍᴀsᴛᴇʀ  :** `{ALIVE_NAME}`" % (duration))
+                    f"**        ➾ Master  :** `{ALIVE_NAME}`\n" 
+                    f"╰━━━━━━━━━━━━━━━━━╯"% (duration))
 
 
 @register(outgoing=True, pattern="^.lping$")
@@ -118,10 +120,10 @@ async def pingme(pong):
     await pong.edit("▇█▇▆▅▄▃▂")
     await pong.edit("▆▇█▇▆▅▄▃")
     await pong.edit("▅▆▇█▇▆▅▄")
-    await pong.edit("▄▃▂▁")
-    await pong.edit("▃▂▁")
-    await pong.edit("▂▁")
-    await pong.edit("▁")
+    await pong.edit("▄▅▆▇█▇▆▅")
+    await pong.edit("▃▄▅▆▇█▇▆")
+    await pong.edit("▂▃▄▅▆▇█▇")
+    await pong.edit("▁▂▃▄▅▆▇█")
     await pong.edit("LOADING COMPLETED.")
     await pong.edit("LOADING COMPLETED..")
     await pong.edit("LOADING COMPLETED...")
