@@ -159,9 +159,9 @@ async def pingme(pong):
                     f"╭┈──────────── \n"
                     f"** ▹ ᴘᴏɴɢ    :** "
                     f"`%sms` \n"
-                    f"**▹ ᴏɴʟɪɴᴇ  :** "
+                    f"** ▹ ᴏɴʟɪɴᴇ  :** "
                     f"`{uptime}` \n" 
-                    f"**▹ ᴏᴡɴᴇʀ  : ** `{ALIVE_NAME}`\n"
+                    f"** ▹ ᴏᴡɴᴇʀ  : ** `{ALIVE_NAME}`\n"
                     f"╰┈───────── "  % (duration))
 
 
