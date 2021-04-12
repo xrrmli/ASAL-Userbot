@@ -53,7 +53,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^.baptis(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**Aku membaptis engkau dalam nama Bapa, Anak dan Roh kudus, yaitu Tuhan Yesus Kriatus**")
+    await typew.edit("**Aku membaptis engkau dalam nama Bapa, Anak dan Roh kudus, yaitu Tuhan Yesus Kristus**")
     sleep(3)
     await typew.edit("**Aminn**")
 
