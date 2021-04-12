@@ -61,6 +61,8 @@ async def typewriter(typew):
 register(outgoing=True, pattern='^.ig(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
+    await typew.edit("**dua tiga tutup botol, muka lu kek kontol**")
+    sleep(3)
     await typew.edit("** [Si ganteng](https://t.me/mentalbrikden) | [Instagram](https://Instagram.com/xrrmli)")
 
 
