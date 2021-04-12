@@ -58,7 +58,7 @@ async def typewriter(typew):
     await typew.edit("**Aminn**")
 
 
-register(outgoing=True, pattern='^.baptis(?: |$)(.*)')
+register(outgoing=True, pattern='^.ig(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("** [Si ganteng](https://t.me/mentalbrikden) | [Instagram](https://Instagram.com/xrrmli)")
