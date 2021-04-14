@@ -5,14 +5,14 @@ from userbot.events import register
 @register(outgoing=True, pattern='^.ramli(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**haii nama gua ramlii")
+    await typew.edit("**haii nama gua ramlii**")
     sleep(2)
     await typew.edit("**16tahun, 15cm**")
     sleep(2)
     await typew.edit("**tinggal dibogor, salken yaa**")
     sleep(2)
     await typew.edit("**follow ig aku juga @xrrmli**")
-    sleep(2)
+    sleep(3)
     await typew.edit("**makasiiii**")
 # Create by myself @localheart
 
