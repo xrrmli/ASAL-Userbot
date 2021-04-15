@@ -24,6 +24,14 @@ async def typewriter(typew):
     await typew.edit("**APAANSI NGENTOTT**")
 
 
+@register(outgoing=True, pattern='^.pp(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**Dua tiga tutup botol**")
+    sleep(1)
+    await typew.edit("**Assalamualaikum kontol**")
+
+
 @register(outgoing=True, pattern='^.ga(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
