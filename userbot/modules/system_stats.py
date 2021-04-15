@@ -293,16 +293,17 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"**- 𝗥𝗘𝗣𝗢 | 𝗖𝗥𝗔𝗦𝗛 𝗨𝗦𝗘𝗥𝗕𝗢𝗧 -** \n"
-        f"━━━━━━━━━━━━━━━━━━━━\n"
-        f" ☠︎︎ 𝗢𝘄𝗻𝗲𝗿        : {DEFAULTUSER} \n"
-        f" ☠︎︎ 𝗨𝘀𝗲𝗿𝗻𝗮𝗺𝗲 :@{user.username} \n"
-        f" ☠︎︎ 𝗧𝗲𝗹𝗲𝘁𝗵𝗼𝗻    : Ver {version.__version__} \n"
-        f" ☠︎︎ 𝗣𝘆𝘁𝗵𝗼𝗻       : Ver {python_version()} \n"
-        f" ☠︎︎ 𝗕𝗿𝗮𝗻𝗰𝗵       : {UPSTREAM_REPO_BRANCH} \n"
-        f" ☠︎︎ 𝗕𝗼𝘁 𝗩𝗲𝗿      : {BOT_VER} \n"
-        f" ☠︎︎ 𝗠𝗼𝗱𝘂𝗹𝗲𝘀    : {len(modules)} Modules \n"
-        f"━━━━━━━━━━━━━━━━━━━━\n"
+        f"╭┈──────────────────┈╮\n"
+        f"   ⚡𝗖𝗥𝗔𝗦𝗛 𝗨𝗦𝗘𝗥𝗕𝗢𝗧⚡\n"
+        f"╭┈──────────────────┈╯\n"
+        f"➥ 𝗢𝘄𝗻𝗲𝗿        : {DEFAULTUSER} \n"
+        f"➥ 𝗨𝘀𝗲𝗿𝗻𝗮𝗺𝗲 :@{user.username} \n"
+        f"➥ 𝗧𝗲𝗹𝗲𝘁𝗵𝗼𝗻    : Ver {version.__version__} \n"
+        f"➥ 𝗣𝘆𝘁𝗵𝗼𝗻       : Ver {python_version()} \n"
+        f"➥ 𝗕𝗿𝗮𝗻𝗰𝗵       : {UPSTREAM_REPO_BRANCH} \n"
+        f"➥ 𝗕𝗼𝘁 𝗩𝗲𝗿      : {BOT_VER} \n"
+        f"➥ 𝗠𝗼𝗱𝘂𝗹𝗲𝘀    : {len(modules)} Modules \n"
+        f"╰┈──────────────────┈╯ \n"
         f"[Repo](https://github.com/xrrmli/Crash-Userbot) | [Instagram](Instagram.com/xrrmli) | [Owner](t.me/mentalbrikden)")
     if ALIVE_LOGO:
         try:
