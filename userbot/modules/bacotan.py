@@ -8,7 +8,7 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 # ============================================
 
 
-@register(outgoing=True, pattern='^.goblok(?: |$)(.*)')
+@register(outgoing=True, pattern='^.gk(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**BHAKSSSSS!**")
@@ -22,6 +22,13 @@ async def typewriter(typew):
     await typew.edit("**DIH!**")
     sleep(1)
     await typew.edit("**APAANSI NGENTOTT**")
+
+@register(outgoing=True, pattern='^.cpr(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**GAUSA CAPER NGENTOT GA KEREN LU BEGITU**")
+    sleep(1)
+    await typew.edit("**CUIHHH**")
 
 
 @register(outgoing=True, pattern='^.pp(?: |$)(.*)')
@@ -76,10 +83,12 @@ async def typewriter(typew):
 
 CMD_HELP.update({
     "bacotan":
-    "`.goblok`\
+    "`.gk`\
 \nUsage: buat goblokin.\
 \n\n`.ga`\
 \nUsage: buat nolak.\
+\n\n`.cpr`\
+\nUsage: buat ngtain cpr.\
 \n\n`.baptis`\
 \nUsage: buat ngebaptis.\
 \n\n`.ps`\
