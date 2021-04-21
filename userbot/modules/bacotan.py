@@ -27,7 +27,7 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**GAUSA CAPER NGENTOT GA KEREN LU BEGITU**")
-    sleep(1)
+    sleep(3)
     await typew.edit("**CUIHHH**")
 
 
